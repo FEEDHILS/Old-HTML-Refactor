@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Andy Wardley: Andy Wardley's Home Page</title>
+    <link rel="stylesheet" type="text/css" href="main_files/abw.css" title="Default Style">
+    <link rel="alternate stylesheet" type="text/css" href="main_files/nomenu.css" title="Hide Menu" disabled="">
+    <link rel="stylesheet" type="text/css" href="main_files/print.css" media="print">
+    <link rel="shortcut icon" type="image/x-icon" href="https://wardley.org/images/abwlogo/a.ico">
+    <meta name="robots" content="all">
+    <meta name="author" content="Andy Wardley">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="main_files/abw.js"></script>
+  </head>
+
+  <body> 
+    <header id="header">
+      <div id="pageinfo">
+        <h1 class="title">Andy Wardley's Home Page</h1>
+        <h2 class="subtitle">Web Architect, Kite Designer, Board Rider, Musician</h2>
+        <a class="permalink" href="http://wardley.org/index.html">http://wardley.org/index.html</a>
+      </div>
+      <div id="hint">
+        <div class="mini panel" id="hint_panel">
+          <div class="head" onclick="switch_minipanel(this.parentNode)">
+            <div class="corner"><div class="control" id="hint_control"></div></div>
+            <h2 class="caption" id="hint_caption">Hint</h2>
+          </div>
+          <div class="body">
+           <h2 class="title" id="hint_title">Page Title</h2>
+           <div class="info" id="hint_info">
+             Page info
+           </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+      <div id="hide_menu" class="button">
+        <a href="#" onclick="hide_menu(); return false;" onmouseover="hint_action('Hide Menu', 'Click to hide the menu')" onmouseout="unhint()"><span class="plus">Hide Menu</span></a>
+      </div>
+      <div id="show_menu" class="button">
+        <a href="#" onclick="show_menu(); return false;" onmouseover="hint_action('Show Menu', 'Click to show the menu')" onmouseout="unhint()"><span class="minus">Show Menu</span></a>
+      </div>
+      <div id="trail">
+        <ul>
+          <li><a href="https://wardley.org/index.html" title="Andy Wardley's Home Page: Web Architect, Kite Designer, Board Rider" onmouseover="hint_here('Andy Wardley\'s Home Page', 'Web Architect, Kite Designer, Board Rider')" onmouseout="unhint()">Home</a></li>
+        </ul>
+      </div>
+      <div id="tabs">
+        <div class="inactive button"><a name="prev" title="No previous page"><span class="left">Prev</span></a></div>
+        <div class="button"><a href="https://wardley.org/about.html" title="Next page: About Andy Wardley: The man behind the longboard" onmouseover="hint_next('About Andy Wardley', 'The man behind the longboard')" onmouseout="unhint()"><span class="right">Next</span></a></div>
+      </div>
+      </nav>
+    </header>
+    <main>
+      <aside id="sidebar">
+        <div class="mini panel">
+          <div class="head" onclick="switch_minipanel(this.parentNode)" onmouseover="hint_panel()" onmouseout="unhint()">
+            <div class="corner"><div class="control"></div></div>
+            <h1 class="caption">Menu</h1>
+          </div>
+          <div class="body">
+                
+                <ul class="menu">
+                  <li><a href="https://wardley.org/index.html" class="hot" title="Andy Wardley's Home Page: Web Architect, Kite Designer, Board Rider" onmouseover="hint_here('Andy Wardley\'s Home Page', 'Web Architect, Kite Designer, Board Rider')" onmouseout="unhint()">Home</a></li>
+                  <li><a href="https://wardley.org/about.html" title="About Andy Wardley: The man behind the longboard" onmouseover="hint_link('About Andy Wardley', 'The man behind the longboard')" onmouseout="unhint()">About</a></li>
+                  <li><a href="https://wardley.org/computers/index.html" title="Computers: Work and Play With Computers" onmouseover="hint_link('Computers', 'Work and Play With Computers')" onmouseout="unhint()">Computers</a></li>
+                  <li><a href="https://wardley.org/kites/index.html" title="Kite Flying and Design" onmouseover="hint_link('Kite Flying and Design', '')" onmouseout="unhint()">Kites</a></li>
+                  <li><a href="https://wardley.org/boards/index.html" title="Boards and Board Riding: Skateboard, Dirtboard, Snowboard." onmouseover="hint_link('Boards and Board Riding', 'Skateboard, Dirtboard, Snowboard.')" onmouseout="unhint()">Boards</a></li>
+                  <li><a href="https://wardley.org/graphics/index.html" title="Graphics: Logos, Icons and Other Graphics I've Created" onmouseover="hint_link('Graphics', 'Logos, Icons and Other Graphics I\'ve Created')" onmouseout="unhint()">Graphics</a></li>
+                  <li><a href="https://wardley.org/misc/index.html" title="Miscellaneous: Everything Else" onmouseover="hint_link('Miscellaneous', 'Everything Else')" onmouseout="unhint()">Miscellaneous</a></li>
+                  <li><a href="https://wardley.org/latest.html" title="Latest News: Recent Updates to the Web Site" onmouseover="hint_link('Latest News', 'Recent Updates to the Web Site')" onmouseout="unhint()">Latest</a></li>
+                </ul>
+      
+          </div>
+        </div>
+      
+      
+        <div class="mini panel">
+          <div class="head" onclick="switch_minipanel(this.parentNode)" onmouseover="hint_panel()" onmouseout="unhint()">
+            <div class="corner"><div class="control"></div></div>
+            <h1 class="caption">External Links</h1>
+          </div>
+          <div class="body">
+            <ul class="menu">
+              <li><a href="http://contentity.co.uk/" class="ext">Contentity Ltd.</a></li>
+              <li><a href="http://www.opensource.org/" class="ext">Open Source</a></li>
+              <li><a href="http://oreilly.com/catalog/perltt/" class="ext">Template Toolkit Book</a></li>
+              <li><a href="http://bensonkites.com/" class="ext">Benson Kites</a></li>
+              <li><a href="http://www.souldeeptv.com/" class="ext">Soul Deep Films</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="mini panel">
+          <div class="head" onclick="switch_minipanel(this.parentNode)" onmouseover="hint_panel()" onmouseout="unhint()">
+            <div class="corner"><div class="control"></div></div>
+            <h1 class="caption">Google Search</h1>
+          </div>
+          <div class="body">
+            
+                  <div align="center">
+            <!-- SiteSearch Google -->
+            <form method="get" action="http://www.google.co.uk/custom" target="_top">
+             <table border="0">
+              <tbody><tr>
+               <td nowrap="nowrap" valign="top" align="center" height="32">
+                <a href="http://www.google.com/"><img src="main_files/Logo_25wht.gif" border="0" alt="Google">
+                </a>
+               </td>
+              </tr>
+              <tr>
+               <td nowrap="nowrap" align="center">
+                <input type="hidden" name="domains" value="wardley.org">
+                <input type="text" name="q" size="15" maxlength="255">
+               </td>
+              </tr>
+              <tr>
+               <td nowrap="nowrap" align="center">
+                <table>
+                 <tbody><tr>
+                  <td>
+                   <input type="radio" name="sitesearch" value="wardley.org" checked="checked">
+                   <p>wardley.org</p>
+                  </td>
+                  <td>
+                   <input type="radio" name="sitesearch" value="">
+                   <p>web</p>
+                  </td>
+                 </tr>
+                </tbody></table>
+                <input type="hidden" name="client" value="pub-7559498963549605">
+                <input type="hidden" name="forid" value="1">
+                <input type="hidden" name="ie" value="ISO-8859-1">
+                <input type="hidden" name="oe" value="ISO-8859-1">
+                <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;">
+                <input type="hidden" name="hl" value="en">
+               </td>
+              </tr>
+              <tr>
+               <td align="center">
+                <input type="submit" name="sa" value="Search">
+               </td>
+              </tr>
+             </tbody></table>
+            </form>
+            <!-- SiteSearch Google -->
+                  </div>
+      
+          </div>
+        </div>
+      
+        <div class="mini panel">
+          <div class="head" onclick="switch_minipanel(this.parentNode)" onmouseover="hint_panel()" onmouseout="unhint()">
+            <div class="corner"><div class="control"></div></div>
+            <h1 class="caption">Google Adverts</h1>
+          </div>
+          <div class="body">
+                  <div align="center">
+            <script type="text/javascript"><!--
+            google_ad_client = "pub-7559498963549605";
+            google_ad_width = 160;
+            google_ad_height = 600;
+            google_ad_format = "160x600_as";
+            google_ad_type = "text_image";
+            google_ad_channel ="";
+            google_color_border = "00AAF0";
+            google_color_bg = "F0F0FF";
+            google_color_link = "F08900";
+            google_color_url = "2020C0";
+            google_color_text = "6F6F6F";
+            //--></script>
+            <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+                  </div>
+      
+          </div>
+        </div>
+      </aside>
+      <article id="content">
+        
+        <div class="image">
+          <img src="main_files/boardstand.png" width="150" height="400" border="0" alt="Andy Wardley with Longboard">
+          <p class="info">Picture by <a href="http://supersnail.com/">Julian Cash</a></p>
+        </div>
+      
+        <!-- Introduction -->
+        <h1 class="headline">Hello World!</h1>     
+        <p class="headline">Welcome to my web (2.0) site!</p>
+
+        <p class="intro"> <span class="big">I'm Andy Wardley</span>.
+          Here you can find information about me, the things I've done, the
+          software I've written, the web sites I've built, the kites I've
+          designed and flown, the boards I've ridden, and all the other useless
+          information that you would expect to find on someone's personal web
+          site.</p>
+        
+        <!-- Different Sections -->
+        <section class="link section" id="About_Me">
+          <div class="header">    
+            <a href="https://wardley.org/about.html" class="title">About Me</a>
+            <a href="#top" class="top" title="Back up to the top of the page">Top</a>
+            <a href="#" class="shut" title="Close section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Close</a>
+            <a href="#" class="open" title="Open section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Open</a>
+          </div>
+
+
+          <p>A page all <a href="https://wardley.org/about.html">about me</a>, who I am,
+            what I do, where I've been and where I'm going.</p>
+          <p>Read about the famous people I've shared bedrooms with, the
+            things that have fallen on my head, and why skateboarding is so
+            good for solving problems.</p>
+
+
+          <div class="icons">
+            <a href="https://wardley.org/about.html" class="tip"><img src="main_files/abw.gif" alt="About" width="60" height="50" border="0"><span class="tip"><span class="title">About Andy Wardley</span><span class="info">The man behind the longboard</span></span></a>
+          </div>
+        </section>
+
+        <hr>
+      
+        <section class="link section" id="Computers">
+          <div class="header">
+            <a href="https://wardley.org/computers/index.html" class="title">Computers</a>
+            <a href="#top" class="top" title="Back up to the top of the page">Top</a>
+            <a href="#" class="shut" title="Close section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Close</a>
+            <a href="#" class="open" title="Open section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Open</a>
+          </div>
+
+
+          <p>I've been using and programming <a href="https://wardley.org/computers/index.html">computers</a> 
+            for 20-something years now.  My work is based around 
+            <a href="https://wardley.org/computers/web/index.html">web design and development</a>.  
+            I run my own <a href="http://contentity.co.uk/" class="ext">consultancy business</a>
+            specialising in building template-driven web sites like this one.</p>
+
+          <p>I'm the author of the 
+            <a href="https://wardley.org/computers/tt.html">Template Toolkit</a>, an <a href="http://www.opensource.org/" class="ext">Open Source</a>
+            software package written specifically for this purpose.  It has
+            become the de-facto templating solution of choice for 
+            <a href="https://wardley.org/computers/perl/index.html">Perl</a>
+            programmers and is used to build countless web sites from the very
+            small to the very large.  I've written a 
+            <a href="http://oreilly.com/catalog/perltt/" class="ext">book</a>
+            on the subject and have given a number of talks at the 
+            <a href="https://wardley.org/computers/perl/conference.html">Perl Conference</a> and 
+            <a href="https://wardley.org/computers/perl/london.pm.html">London.pm</a> user group
+            meetings.</p>
+
+
+          <div class="icons">
+            <a href="https://wardley.org/computers/index.html" class="tip"><img src="main_files/computer.gif" alt="Computers" width="60" height="50" border="0"><span class="tip"><span class="title">Computers</span><span class="info">Work and Play With Computers</span></span></a>
+            <a href="https://wardley.org/computers/tt.html" class="tip"><img src="main_files/tt2.gif" alt="Template Toolkit" width="60" height="50" border="0"><span class="tip"><span class="title">Template Toolkit</span><span class="info">A Fast, Powerful and Extensible Template Processing System</span></span></a>
+            <a href="https://wardley.org/computers/perl/index.html" class="tip"><img src="main_files/camel.gif" alt="Perl" width="60" height="50" border="0"><span class="tip"><span class="title">Perl Programming</span><span class="info">Perl Software, Talks, Articles, etc.</span></span></a>
+          </div>
+        </section>
+
+        <hr>
+      
+        <section class="link section" id="Kites">
+          <div class="header">
+            <a href="https://wardley.org/kites/index.html" class="title">Kites</a>
+            <a href="#top" class="top" title="Back up to the top of the page">Top</a>
+            <a href="#" class="shut" title="Close section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Close</a>
+            <a href="#" class="open" title="Open section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Open</a>
+          </div>
+
+          
+          <p>I'm a <a href="https://wardley.org/kites/freestyle/index.html">freestyle</a>
+            kite flying fanatic.  Over the last ten or so years I've flown at numerous 
+            kite competitions, festivals and other <a href="https://wardley.org/kites/events/index.html">events</a>
+            around the World.  I have <a href="https://wardley.org/kites/design.html">designed</a>
+            a number of kites with Tim Benson of <a href="http://bensonkites.com/" class="ext">Benson Kites</a>,
+            including the <a href="https://wardley.org/kites/design.html#Gemini">Gemini</a>, <a href="https://wardley.org/kites/design.html#Airbow">Airbow</a> and <a href="https://wardley.org/kites/design.html#Deep_Space">Deep Space</a>.
+            I've also devised a number of <a href="https://wardley.org/kites/freestyle/index.html">freestyle competition formats</a>.</p>
+          
+          <p>I've appeared in a number of <a href="https://wardley.org/kites/movies/index.html">Kite Movies</a> 
+            including my home-produced <a href="https://wardley.org/kites/movies/stoked.html">Stoked in the Park</a>
+            series available for download, and the new <a href="https://wardley.org/kites/movies/trickortreat.html">Trick or Treat</a>
+            DVD from <a href="http://www.souldeeptv.com/" class="ext">Soul Deep Films</a>, 
+            available from all good kite shops.</p>
+
+          <p>There is also a section dealing with <a href="https://wardley.org/kites/bridle/index.html">bridle design</a>
+            and an archive of some of my <a href="https://wardley.org/kites/reckites/index.html">rec.kites</a>
+            posts or those of other people that I found amusing or interesting</p>
+
+
+          <div class="icons">
+            <a href="https://wardley.org/kites/index.html" class="tip"><img src="main_files/kite.gif" alt="Kites" width="60" height="50" border="0"><span class="tip"><span class="title">Kite Flying and Design</span><span class="info"></span></span></a>
+          </div>
+        </section>
+
+        <hr>
+
+        <section class="link section" id="Boards">
+          <div class="header"> 
+            <a href="https://wardley.org/boards/index.html" class="title">Boards</a>
+            <a href="#top" class="top" title="Back up to the top of the page">Top</a>
+            <a href="#" class="shut" title="Close section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Close</a>
+            <a href="#" class="open" title="Open section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Open</a>
+          </div>
+
+          <p>
+            <a href="https://wardley.org/boards/index.html">Board riding</a> is another passion of
+            mine.  In addition to the usual skateboarding and snowboarding,
+            I'm also into downhill mountain boarding and kite boarding.
+          </p>
+
+          <div class="icons">
+            <a href="https://wardley.org/boards/index.html" class="tip"><img src="main_files/mboard.gif" alt="Boards" width="60" height="50" border="0"><span class="tip"><span class="title">Boards and Board Riding</span><span class="info">Skateboard, Dirtboard, Snowboard.</span></span></a>
+          </div>
+        </section>
+
+        <hr>
+
+        <!-- Yes, we're using a table for layout, dammit. Sometimes it just work best -->
+        <table cellpadding="0" cellspacing="0" border="0" class="pichead">
+          <tbody><tr valign="top">
+            <td class="content">
+                      
+              <div class="link section" id="Graphics">
+                <div class="header">
+              
+                  <a href="https://wardley.org/graphics/index.html" class="title">Graphics</a>
+                  <a href="#top" class="top" title="Back up to the top of the page">Top</a>
+                  <a href="#" class="shut" title="Close section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Close</a>
+                  <a href="#" class="open" title="Open section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Open</a>
+              
+                </div>
+                <div class="content">
+                  <p>
+                    I've dabbled in various different kinds of <a href="https://wardley.org/graphics/index.html">computer graphics</a> over
+                    the years including ray tracing, 3d modelling and generatihg
+                    fractal images.  Most of what I do these days is creating logos,
+                    icons and images for web sites using Illustrator, Photoshop and 
+                    the Gimp.  This section contains some examples of my work.
+                  </p>
+                  <div class="icons">
+                    <a href="https://wardley.org/graphics/index.html" class="tip"><img src="main_files/cool.gif" alt="Graphics" width="60" height="50" border="0"><span class="tip"><span class="title">Graphics</span><span class="info">Logos, Icons and Other Graphics I've Created</span></span></a>
+                  </div>
+              
+                </div>
+              </div>
+              
+              
+              
+              <div class="link section" id="Miscellaneous">
+                <div class="header">
+              
+                  <a href="https://wardley.org/misc/index.html" class="title">Miscellaneous</a>
+                  <a href="#top" class="top" title="Back up to the top of the page">Top</a>
+                  <a href="#" class="shut" title="Close section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Close</a>
+                  <a href="#" class="open" title="Open section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Open</a>
+              
+                </div>
+                <div class="content">
+                  <p>
+                    This section contains all the <a href="https://wardley.org/misc/index.html">random bits</a> 
+                    that don't fit anywhere else.  There's the <a href="https://wardley.org/misc/goldbach.html">Goldbach Weave</a>, a graphical representation of
+                    Goldbach's Conjecture (a famous problem from the branch of
+                    mathematics known as number theory), my <a href="https://wardley.org/misc/commercial.html">Commmercial Email</a> spam honeypot (yes I've had
+                    messages sent to it - 43 at the last count - but no I've never
+                    collected any money), some family pictures, and so on.
+                  </p>
+                </div>
+              </div>
+              
+              
+              <div class="link section" id="Latest">
+                <div class="header">
+              
+                  <a href="https://wardley.org/latest.html" class="title">Latest</a>
+                  <a href="#top" class="top" title="Back up to the top of the page">Top</a>
+                  <a href="#" class="shut" title="Close section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Close</a>
+                  <a href="#" class="open" title="Open section content" onclick="switch_element(this.parentNode.parentNode, 'section'); return false;" onmouseover="hint_section()" onmouseout="unhint()">Open</a>
+              
+                </div>
+                <div class="content">
+                  <p>
+                    A page detailing all the updates to the site.
+                  </p>
+                </div>
+              </div>
+              
+              
+              
+        
+            </td>
+          </tr>
+        </tbody></table>
+      </div>
+    </main>
+    <div id="footer">
+      <div id="reddit">
+        <script>reddit_url='http://wardley.org/index.html'</script>
+        <script language="javascript" src="http://reddit.com/button.js?t=3"></script>
+      </div>
+      <div class="iconset">
+    <a href="https://wardley.org/index.html" class="abw icon" title="Home"><span class="caption">Home</span></a><a href="https://wardley.org/computers/index.html" class="computer icon" title="Computers"><span class="caption">Computers</span></a><a href="https://wardley.org/computers/tt.html" class="tt2 icon" title="Template Toolkit"><span class="caption">Template Toolkit</span></a><a href="https://wardley.org/computers/perl/index.html" class="camel icon" title="Perl Programming"><span class="caption">Perl Programming</span></a><a href="https://wardley.org/kites/index.html" class="kite icon" title="Kites"><span class="caption">Kites</span></a><a href="https://wardley.org/boards/index.html" class="mboard icon" title="Boards"><span class="caption">Boards</span></a><a href="https://wardley.org/graphics/index.html" class="cool icon" title="Graphics"><span class="caption">Graphics</span></a>  <br clear="all">
+      </div>
+    
+      <div class="copyright">
+        © Copyright 1995-2009 Andy Wardley.  All Rights Reserved.
+      </div>
+      <div class="pageinfo">
+        index.html last modified 18:39:57 20-Jul-2007
+      </div>
+      <div class="info">
+        Contact: <span class="link">abw &lt;at&gt; wardley &lt;dot&gt; org</span>
+      </div>
+    
+    </div>
+  
+
+</body></html>

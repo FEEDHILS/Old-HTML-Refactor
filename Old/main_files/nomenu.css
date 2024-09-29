@@ -1,0 +1,2116 @@
+
+/*------------------------------------------------------------------------*/
+/* CSS file for hidden menu                                               */
+/*------------------------------------------------------------------------*/
+
+
+
+body {
+  font: 14px Verdana, Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  color: #444;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+td {
+   font-size: 14px;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+/* text, links, etc                                                       */
+/*------------------------------------------------------------------------*/
+
+a {
+  color: #00AAF0;
+  text-decoration: none;
+}
+
+p a:visited {
+  color: #0066F0;
+}
+
+a:hover,
+p a:hover {
+  color: #FF7F00;
+}
+
+
+
+a.pagelink {
+  display: block;
+  padding: 0 0 2px 28px;
+  margin: 4px 0px 4px -30px;
+  font: 20px Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: url('../images/arrows/ff24_blue/right.gif') 0px 0px no-repeat;
+  border-bottom: 1px dashed #ccc;
+}
+
+a.pagelink:hover {
+  background: url('../images/arrows/ff24_orange/right.gif') 0px 0px no-repeat;
+  color: #FF7F00;
+  border-bottom: 1px dashed #888;
+}
+
+p {
+  margin: 2px 0 16px 0;
+  line-height: 150%;
+}
+
+p.headline {
+  margin: 2px 0 16px -30px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+p.intro {
+  margin: 2px 0 16px -30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p.big {
+  margin: 2px 0 16px -12px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+  
+
+/*------------------------------------------------------------------------*/
+/* headings                                                               */
+/*------------------------------------------------------------------------*/
+
+
+h1, h2, h3, h4, h5 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #404050;
+}
+
+h1 {
+  font-size: 26px;
+  padding: 10px 0px 0px 0px;
+}
+
+h1.headline {
+  margin: 2px 0 16px -30px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+h1.title {
+  font-size: 30px;
+  margin: 0 0 8px -30px;
+}
+
+h2 {
+  font-size: 22px;
+  padding: 10px 0px 0px 0px;
+}
+
+h3 {
+  font-size: 18px;
+  padding: 4px 0px 0px 0px;
+}
+
+h4 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 2px 0px 0px 0px;
+  margin: 4px 0 4px 0px;
+}
+
+h5 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 0px 0px 0px 10px;
+}
+
+.subhead {
+    margin: -10px 0 10px -30px;
+    padding: 0;
+}
+
+li { 
+    line-height: 150%;
+    padding-bottom: 6px;
+}    
+
+
+
+/*------------------------------------------------------------------------*/
+/* main ui positioning elements                                           */
+/*------------------------------------------------------------------------*/
+
+body {
+  min-width: 440px;
+  margin: 24px;
+}
+
+#header {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  height: 120px; 
+  border-bottom: 1px solid #00AAF0;
+}
+
+#main {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+#sidebar {
+  float: left;
+  clear: both;
+  margin: 0 0 24px 0;
+  padding: 0px;
+  width: 220px;
+  background: url('../images/pixel/blue.gif') repeat-y 110px 0px;
+}
+
+#content {
+  padding: 20px 10px 20px 30px;
+  margin: 0px;
+  margin-left: 244px;
+}
+
+#footer {
+  position: relative;
+  clear: both;
+  border: 0px;
+  margin: 24px 0 0 0;
+  padding: 10px;
+  border-top: 1px solid #00AAF0;
+  font: 12px Verdana, Arial, Helvetica, sans-serif;
+  color: #aaa;
+  text-align: center;
+}
+
+#footer #reddit {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    text-align: right;
+}
+
+
+/*------------------------------------------------------------------------*/
+/* header elements                                                        */
+/*------------------------------------------------------------------------*/
+
+#logo {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  height: 70px;
+  background: white url('../images/abwlogo/abw_blue_190x70.png') no-repeat 5px 0px;
+  cursor: pointer;
+  border: 0px;
+}
+
+#logo:hover {
+  background-image: url('../images/abwlogo/abw_orange_190x70.png');
+}
+
+#nameplate {
+  clear: left;
+  float: left;
+  margin: 0px;
+  width: 200px;
+  height: 30px;
+  background: white url('../images/text/andywardley.png') no-repeat top right;
+}
+
+#pageinfo {
+  position: relative;
+  margin-left: 244px;
+  padding: 0px;
+  height: 106px;
+}
+
+#pageinfo h1.title {
+  font-size: 32px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#pageinfo h2.subtitle {
+  font-size: 18px;
+  color: #404050;
+  padding: 2px;
+  margin: 0px;
+}
+
+#pageinfo a.permalink {
+  position: absolute;
+  font-size: 16px;
+  left: 2px;
+  bottom: 12px;
+}
+
+#hide_menu {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  width: 120px;
+}
+
+#show_menu {
+  display: none;
+}
+
+#tabs {
+  position: absolute;
+  top: 110px;
+  right: 24px;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  height: 20px;
+}
+
+/*------------------------------------------------------------------------*/
+/* breadcrumb trail elements                                              */
+/*------------------------------------------------------------------------*/
+
+#trail {
+    position: absolute;
+    top: 110px;
+    left: 244px;
+    height: 20px;
+    padding: 0px;
+    background: url('../images/ui/button.gif') top left no-repeat; 
+}
+
+#trail:hover {
+    background: url('../images/ui/roll_button.gif') top left no-repeat;
+}
+
+#trail ul {
+    z-index: 2;
+    margin: 0 0 0 10px;
+    padding: 0 3px 0 0;
+    list-style-type: none;
+    height: 20px;
+    float: left;
+    background: url('../images/ui/button.gif') top right no-repeat; 
+}
+
+#trail ul:hover {
+    background: url('../images/ui/roll_button.gif') top right no-repeat;
+}
+
+#trail ul li {
+    display: inline;
+    float: left;
+    padding: 0px;
+    margin: 1px 5px 1px 0;
+    line-height: 16px;
+}
+
+#trail ul li a {
+    padding: 0 5 0 20px;
+    margin: 0px;
+    font-size: 14px;
+    background: url('../images/arrows/ee16_blue/right.gif') 2px 1px no-repeat;
+}
+
+/* This is another workaround for an IE bug, in this case to prevent a b
+   bleed-through problem.  We force it to redraw the background by setting it 
+   to a different colour.  If the colour is different, IE redraws it.  Luckily
+   for us, IE treats #eee and #eeeeee as different colours (NOTE: I later took 
+   the background off...)
+*/
+
+#trail ul li a:hover {
+    background: #eeeeee url('../images/arrows/ee16_orange/right.gif') 2px 1px no-repeat;
+    color: #FF7F00;
+}
+
+/*------------------------------------------------------------------------*/
+/* menu elements                                                          */
+/*------------------------------------------------------------------------*/
+
+
+#menu {
+  float: left;
+  border: 0px;
+  margin: 24px 0 0 0;   /* TMP */
+  margin: 0;
+  padding: 6px;
+  width: 208px;
+  background-color: #eeeeee;
+/*  border: 1px solid #00AAF0; */
+/*  -moz-border-radius: 10px; */
+}
+
+
+/* work around the bugs in Internet Explorer */
+* html #menu {
+  width: 220px; /* for IE5 and IE6 in quirks mode */
+  w\idth: 208px; /* for IE6 in standards mode */
+}
+
+ul.menu {
+  margin: 0px -7px;
+  padding: 1px;
+  background-color: #eee;
+  text-align: left;
+}
+
+ul.menu li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border: 1px solid #eee;   /* having a border keeps IE happy for some reason! */
+}
+
+ul.menu > li {
+  border: 0px;              /* turn it off again for real browser */
+}
+
+ul.menu li a {
+  display: block;
+  padding: 0 4px 0 22px;
+  margin: 0px;
+  font: 13px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border: 1px solid #eee;
+  background: url('../images/arrows/ee16_blue/right.gif') 4px 1px no-repeat;
+  line-height: 135%;
+}
+
+
+ul.menu li a.hot {
+  background: #eee url('../images/arrows/ee16_orange/right.gif') 4px 1px no-repeat;
+  font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+  color: #06c22e;
+  color: #FF7F00;
+  border: 1px solid #eee;
+/*  border-bottom: 1px dotted #ddd; */
+}
+
+ul.menu li a:hover {
+  background: #ddd url('../images/arrows/dd16_orange/right.gif') 4px 1px no-repeat;
+  color: #FF7F00;
+  border: 1px solid #eee;
+  border-top: 1px dashed #bbb;
+  border-bottom: 1px dashed #bbb;
+
+}
+
+
+ul.menu ul.menu {
+  padding: 0 0 0 12px;
+  margin: 0;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+/* button                                                                 */
+/*------------------------------------------------------------------------*/
+
+
+div.button {
+    position: relative;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    background: url('../images/ui/button.gif') top left no-repeat;
+    text-align: center;
+}
+
+div.button:hover {
+    background: url('../images/ui/roll_button.gif') top left no-repeat;
+}
+
+div.button.inactive {
+    background: url('../images/ui/grey_button.gif') top left no-repeat;
+    text-align: center;
+}
+
+div.button a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    background: url('../images/ui/button.gif') top right no-repeat;
+}
+
+div.button:hover a,
+div.button a:hover {
+    background: url('../images/ui/roll_button.gif') top right no-repeat;
+    cursor: pointer;
+}
+
+div.button.inactive a {
+    background: url('../images/ui/grey_button.gif') top right no-repeat;
+    color: #ccc;
+    cursor: default;
+}
+
+div.button a .left {
+    padding: 0 0 0 24px;
+    margin: 0 0 0 -12px;
+    background: url('../images/arrows/ee16_blue/left.gif') center left no-repeat;
+}
+
+div.button a:hover .left {
+    background: url('../images/arrows/ee16_orange/left.gif') center left no-repeat;
+}
+
+div.button.inactive a .left {
+    background: url('../images/arrows/ee16_grey/left.gif') center left no-repeat;
+}
+
+div.button a .right {
+    padding: 0 24px 0 0;
+    margin: 0 -12px 0 0;
+    background: url('../images/arrows/ee16_blue/right.gif') center right no-repeat;
+}
+
+div.button a:hover .right {
+    background: url('../images/arrows/ee16_orange/right.gif') center right no-repeat;
+}
+
+div.button.inactive a .right {
+    background: url('../images/arrows/ee16_grey/right.gif') center right no-repeat;
+}
+
+div.button a .plus,
+div.button a .minus {
+    padding: 0 4px 0 18px;
+    background: url('../images/arrows/ee16_blue/dotplus.gif') center left no-repeat;
+    white-space: nowrap;
+}
+
+div.button a .minus {
+    background: url('../images/arrows/ee16_blue/dotminus.gif') center left no-repeat;
+}
+
+div.button a:hover .plus {
+    background: url('../images/arrows/ee16_orange/dotplus.gif') center left no-repeat;
+}
+
+div.button a:hover .minus {
+    background: url('../images/arrows/ee16_orange/dotminus.gif') center left no-repeat;
+}
+
+#hide_menu div.button,
+#show_menu div.button {
+    width: 80px;
+    margin: 0 0 0 -8px;
+}
+
+#tabs div.button {
+    width: 80px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+/* panel elements                                                         */
+/*------------------------------------------------------------------------*/
+
+
+div.panel {
+    float: left;
+    border: 0px;
+    margin: 24px 0 0 0;
+    padding: 0px;
+    width: 220px;
+    background: url('../images/ui/panel.gif') bottom left repeat-y;
+}
+
+div.panel:hover {
+    background: url('../images/ui/roll_panel.gif') bottom left repeat-y;
+}
+
+div.panel.collapsed {
+  height: 30px;
+}
+
+div.panel div.head {
+  position: relative;
+  margin: 0;
+  padding: 8px 0;
+  border: 0px;
+  height: 14px;
+  text-align: center;
+  background: #eee url('../images/ui/header.gif') top right no-repeat; 
+  cursor: pointer;
+}
+
+* html div.panel div.head {
+  padding: 7px 0;
+  height: 30px;  /* for IE5 and IE6 in quirks mode */
+  h\eight: 14px; /* for IE6 in standards mode */
+}
+
+div.panel:hover div.head {
+  background: #eee url('../images/ui/roll_header.gif') top right no-repeat;
+}
+
+div.collapsed div.head {
+  background: #eee url('../images/ui/collapsed.gif') top right no-repeat;
+}
+
+div.collapsed:hover div.head {
+  background: #eee url('../images/ui/roll_collapsed.gif') top right no-repeat;
+}
+
+div.panel div.head div.corner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 30px;
+  background: url('../images/ui/header.gif') top left no-repeat;
+}
+
+div.panel:hover div.head div.corner {
+  background: #eee url('../images/ui/roll_header.gif') top left no-repeat;
+}
+
+div.collapsed div.head div.corner {
+  background: #eee url('../images/ui/collapsed.gif') top left no-repeat;
+}
+
+div.collapsed:hover div.head div.corner {
+  background: #eee url('../images/ui/roll_collapsed.gif') top left no-repeat;
+}
+
+div.panel div.head .control {
+  position: absolute;
+  margin: 0;
+  top: 7px;
+  left: 8px;
+  width: 16px;
+  height: 14px;
+  background: url('../images/arrows/dd16_blue/dotplus.gif') top left no-repeat;
+}
+
+div.panel div.head:hover .control {
+  background: url('../images/arrows/dd16_orange/dotplus.gif') top left no-repeat;
+}
+
+div.collapsed div.head:hover .control {
+  background: url('../images/arrows/dd16_blue/dotminus.gif') top left no-repeat;
+}
+
+div.collapsed div.head:hover .control {
+  background: url('../images/arrows/dd16_orange/dotminus.gif') top left no-repeat;
+}
+
+div.panel div.body {
+  padding: 8px 8px 8px 0px;
+  margin: 0 0 0 8px;
+  text-align: left;
+/*  border-top: 1px solid #00AAF0; */
+  background: url('../images/ui/panel.gif') bottom right repeat-y;
+}
+
+div.panel:hover div.body {
+  background: url('../images/ui/roll_panel.gif') bottom right repeat-y;
+}
+
+div.collapsed div.body {
+  display: none;
+}
+
+div.caption {
+/*  position: relative; */
+  margin-left: 20px; 
+  width: 180px;
+  height: 14px;
+}
+
+div.panel .caption {
+  margin: 0 20px; 
+  padding: 0;
+  height: 14px;
+  line-height: 20px;
+  font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+  color: #404050;
+}
+
+div.panel:hover .caption {
+  color: #000;
+}
+
+
+div.menu {
+  background: url('../images/captions/menu.gif') top left no-repeat;
+}
+
+div.panel:hover div.menu {
+  background: url('../images/captions/roll_menu.gif') top left no-repeat;
+}
+
+div.search {
+  background: url('../images/captions/search.gif') top left no-repeat;
+}
+
+div.panel:hover div.search {
+  background: url('../images/captions/roll_search.gif') top left no-repeat;
+}
+
+div.adverts {
+  background: url('../images/captions/adverts.gif') top left no-repeat;
+}
+
+div.panel:hover div.adverts {
+  background: url('../images/captions/roll_adverts.gif') top left no-repeat;
+}
+
+div.news {
+  background: url('../images/captions/news.gif') top left no-repeat;
+}
+
+div.panel:hover div.news {
+  background: url('../images/captions/roll_news.gif') top left no-repeat;
+}
+
+div.links {
+  background: url('../images/captions/links.gif') top left no-repeat;
+}
+
+div.panel:hover div.links {
+  background: url('../images/captions/roll_links.gif') top left no-repeat;
+}
+
+
+
+
+/*------------------------------------------------------------------------*/
+/* minipanel elements                                                         */
+/*------------------------------------------------------------------------*/
+
+div.panel.mini {
+  margin: 20px 0 -5px 0;
+}
+
+* html div.panel.mini {
+  margin: 20px 0 0px 0;
+}
+
+div.panel.mini.collapsed {
+  height: 20px;
+}
+
+div.panel.mini div.head {
+  padding: 3px 0;
+  height: 14px;
+  background: #eee url('../images/ui/header20.gif') top right no-repeat; 
+}
+
+* html div.panel div.head {
+  padding: 2px 0;
+  height: 20px;  /* for IE5 and IE6 in quirks mode */
+  h\eight: 14px; /* for IE6 in standards mode */
+}
+
+div.panel.mini:hover div.head {
+  background: #eee url('../images/ui/roll_header20.gif') top right no-repeat;
+}
+
+div.panel.mini.collapsed div.head {
+  background: #eee url('../images/ui/collapsed20.gif') top right no-repeat;
+}
+
+div.panel.mini.collapsed:hover div.head {
+  background: #eee url('../images/ui/roll_collapsed20.gif') top right no-repeat;
+}
+
+div.panel.mini div.head div.corner {
+  width: 20px;
+  height: 20px;
+  background: url('../images/ui/header20.gif') top left no-repeat;
+}
+
+div.panel.mini:hover div.head div.corner {
+  background: #eee url('../images/ui/roll_header20.gif') top left no-repeat;
+}
+
+div.panel.mini.collapsed div.head div.corner {
+  background: #eee url('../images/ui/collapsed20.gif') top left no-repeat;
+}
+
+div.panel.mini.collapsed:hover div.head div.corner {
+  background: #eee url('../images/ui/roll_collapsed20.gif') top left no-repeat;
+}
+
+div.panel.mini div.head .control {
+    position: absolute;
+    margin: 0;
+    top: 2px;
+    left: 8px;
+    width: 16px;
+    height: 14px;
+    background: url('../images/arrows/dd16_blue/dotplus.gif') top left no-repeat;
+}
+
+div.panel.mini div.head:hover .control {
+    background: url('../images/arrows/dd16_orange/dotplus.gif') top left no-repeat;
+}
+
+div.panel.mini.collapsed div.head .control {
+    background: url('../images/arrows/dd16_blue/dotminus.gif') top left no-repeat;
+}
+
+div.panel.mini.collapsed div.head:hover .control {
+    background: url('../images/arrows/dd16_orange/dotminus.gif') top left no-repeat;
+}
+
+div.panel.mini.collapsed div.body {
+    display: none;
+}
+
+div.panel.mini div.caption {
+    margin: 0 10px; 
+    height: 14px;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------*/
+/* section                                                                */
+/*------------------------------------------------------------------------*/
+
+div.section {
+    clear: right;
+    margin: 10px 0px;
+}
+
+div.section div.header {
+    position: relative;
+    margin: 4px 0px 4px -30px;
+    padding-right: 100px;
+    border-bottom: 1px dashed #ccc;
+    min-height: 24px;
+}
+
+* html div.section div.header {
+    height: 24px;
+}
+
+div.section div.header .title {
+    padding: 0 0 2px 28px;
+    margin: 0;
+    font: 20px Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: url('../images/arrows/ff24_blue/dot.gif') 
+              no-repeat 0px 0px;
+}
+
+div.section.shut > div.header .title {
+    background: url('../images/arrows/ff24_blue/dotminus.gif') 
+              no-repeat 0px 0px;
+}
+
+div.section.open > div.header .title {
+    background: url('../images/arrows/ff24_blue/dotplus.gif') 
+              no-repeat 0px 0px;
+}
+
+div.section div.header a.title {
+  background: url('../images/arrows/ff24_blue/right.gif') 
+              no-repeat 0px 0px;
+}
+
+
+div.section.shut > div.header:hover .title {
+    color: #FF7F00;
+    cursor: pointer;
+    background: url('../images/arrows/ff24_orange/dotminus.gif') 
+              no-repeat 0px 0px;
+}
+
+div.section.open  > div.header:hover .title {
+    color: #FF7F00;
+    cursor: pointer;
+    background: url('../images/arrows/ff24_orange/dotplus.gif') 
+              no-repeat 0px 0px;
+}
+
+div.section div.header a.title:hover {
+    color: #FF7F00;
+    cursor: pointer;
+    background: url('../images/arrows/ff24_orange/right.gif') 
+              no-repeat 0px 0px;
+}
+
+div.section div.header .tip {
+    position: absolute;
+    bottom: 4px;
+    right: 90px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    height: 16px;
+    width: 10em;
+    color: #888;
+
+}
+    
+* html div.section div.header .tip {
+    width: 20em;
+}
+
+div.section div.header a.top {
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+    padding: 0px 20px 0px 0;
+    margin: 0px;
+    width: 25px;
+    text-align: right;
+    font-size: 12px;
+    height: 16px;
+    background: url('../images/arrows/ff16_blue/up.gif')
+                no-repeat top right;
+}
+
+div.section div.header a.top:hover {
+    background: url('../images/arrows/ff16_orange/up.gif')
+                no-repeat top right;
+}
+
+div.section div.header a.open, 
+div.section div.header a.shut {
+    position: absolute;
+    bottom: 4px;
+    right: 45px;
+    margin: 0px;
+    padding: 0px 5px;
+    font-size: 12px;
+    height: 16px;
+    width: 3em;
+    text-align: right;
+    border-right: 1px solid #ddd;
+    display: none;
+}
+
+div.section div.header a.topless { 
+    right: 0px;
+    padding: 0;
+    border: 0;
+    display: none;
+}
+
+div.section.shut div.header a.open {
+    display: block;
+}
+div.section.shut div.header a.shut {
+    display: none;
+}
+div.section.open div.header a.open {
+    display: none;
+}
+div.section.open div.header a.shut {
+    display: block;
+}
+
+
+div.section div.content {
+    display: block;
+    margin: 5px 0 20px 0;
+}
+
+div.section.shut div.content {
+    display: none;
+}
+
+
+/*------------------------------------------------------------------------*/
+/* subsection                                                             */
+/*------------------------------------------------------------------------*/
+
+div.subsection {
+    margin: 5px 0px;
+}
+
+div.subsection div.header {
+    position: relative;
+    margin: 4px 0px 4px -18px;
+    border-bottom: 1px dotted #ccc;
+    min-height: 20px;
+    padding-right: 100px;
+}
+
+* html div.subsection div.header {
+    height: 20px;
+}
+
+div.subsection div.header .title {
+    padding: 0 0 2px 18px;
+    margin: 0;
+    font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+    background: url('../images/arrows/ff16_blue/dot.gif') 
+                no-repeat 0px 2px;
+}
+
+div.subsection.shut > div.header .title {
+    background: url('../images/arrows/ff16_blue/dotminus.gif') 
+                no-repeat 0px 2px;
+}
+
+div.subsection.open > div.header .title {
+    background: url('../images/arrows/ff16_blue/dotplus.gif') 
+                no-repeat 0px 2px;
+}
+
+div.subsection div.header a.title {
+    background: url('../images/arrows/ff16_blue/right.gif') 
+                no-repeat 0px 2px;
+}
+
+div.subsection.shut > div.header:hover .title {
+    color: #FF7F00;
+    cursor: pointer;
+    background: url('../images/arrows/ff16_orange/dotminus.gif') 
+              no-repeat 0px 2px;
+}
+
+div.subsection.open > div.header:hover .title {
+    color: #FF7F00;
+    cursor: pointer;
+    background: url('../images/arrows/ff16_orange/dotplus.gif') 
+              no-repeat 0px 2px;
+}
+
+div.subsection div.header a.title:hover {
+    color: #FF7F00;
+    cursor: pointer;
+    background: url('../images/arrows/ff16_orange/right.gif')
+                 no-repeat 0px 2px;
+}
+
+div.subsection div.header .tip {
+    position: absolute;
+    bottom: 4px;
+    right: 40px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    height: 16px;
+    width: 10em;
+    color: #888;
+}
+
+div.subsection div.header a.top {
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+    padding: 0px 20px 0px 0;
+    margin: 0px;
+    font-size: 12px;
+    height: 16px;
+    background: url('../images/arrows/ff16_blue/up.gif')
+                no-repeat top right;
+}
+
+div.subsection div.header a.top:hover {
+    background: url('../images/arrows/ff16_orange/up.gif')
+                no-repeat top right;
+}
+
+div.subsection div.header a.open, 
+div.subsection div.header a.shut {
+    position: absolute;
+    bottom: 4px;
+    right: 45px;
+    margin: 0px;
+    padding: 0px 5px;
+    font-size: 12px;
+    height: 16px;
+    width: 3em;
+    text-align: right;
+    border-right: 1px solid #ddd;
+    display: none;
+}
+
+div.subsection div.header a.topless { 
+    right: 0px;
+    padding: 0;
+    border: 0;
+    display: none;
+}
+
+div.subsection.shut div.header a.open {
+    display: block;
+}
+div.subsection.shut div.header a.shut {
+    display: none;
+}
+div.subsection.open div.header a.open {
+    display: none;
+}
+div.subsection.open div.header a.shut {
+    display: block;
+}
+
+div.subsection div.content {
+    display: block;
+    margin: 5px 0 20px 0;
+}
+
+div.subsection.shut div.content {
+    display: none;
+}
+
+
+/*------------------------------------------------------------------------*/
+/* subsubsection                                                             */
+/*------------------------------------------------------------------------*/
+
+div.subsubsection {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.subsubsection div.header {
+    position: relative;
+    margin: 4px 0px 4px 0px;
+    border: 0px;
+}
+
+div.subsubsection div.header .title {
+    padding: 0;
+    margin: 0;
+    font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+    background-image: none;
+}
+
+/*
+div.section.open div.subsubsection div.header:hover .title,
+div.section.stub div.subsubsection div.header:hover .title,
+div.subsubsection div.header:hover .title {
+    background-image: none;
+    color: #404050;
+}
+
+*/
+
+div.section div.icons {
+    text-align: center; 
+}
+
+
+/*------------------------------------------------------------------------*/
+/* list styles                                                            */
+/*------------------------------------------------------------------------*/
+
+ul.toc, ul.links, ul.bullet {
+    padding: 0;
+    margin: 0 0 12px 0;
+    list-style-type: none;
+}
+
+ul.links {
+    margin: 0px 0px 10px 0px;
+}
+
+ul.toc li, ul.links li, ul.bullet li {
+    margin: 0 0 4px 0;
+    padding: 0 0 0 20px;
+    background: url('../images/arrows/ff16_blue/right.gif')
+                no-repeat 0px 2px;
+    line-height: 130%;
+}
+
+ul.toc li:hover, ul.links li:hover {
+    background: url('../images/arrows/ff16_orange/right.gif')
+                no-repeat 0px 2px;
+}
+
+ul.bullet li {
+    background: url('../images/arrows/ff16_blue/dot.gif')
+                no-repeat 0px 2px;
+}
+
+ul.toc li a {
+  font-weight: bold;
+}
+
+ul.toc li a.normal {
+  font-weight: normal;
+}
+
+ul.toc li p, ul.bullet li p {
+    margin: 0 0 6px 0;
+    padding: 0;
+}
+
+ul.toc li .title {
+    font-weight: bold;
+}
+
+ul.links li a {
+}
+
+ul.toc ul {
+  padding: 0;
+  margin: 0 10px;
+  list-style: none;
+}
+
+ul.toc ul li a {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/*------------------------------------------------------------------------*/
+/* icons                                                                  */
+/*------------------------------------------------------------------------*/
+
+
+a.icon {
+    display: block;
+    float: left;
+    border: 0px;
+    margin: 0 -40px 0 10px;
+    padding: 0px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.icon:hover {
+    width: 120px;
+}
+
+a.icon span.caption {
+    display: none;
+}
+
+a.icon:hover span.caption {
+    display: block;
+    position: relative;
+    top: 85px;
+    left: 0px;
+    width: 120px;
+    font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #444;
+    border: 1px solid #00AAF0;
+    padding: 1px;
+    background-color: #f4f4f4;
+}
+
+a.icon:hover span.caption:hover {
+    border: 1px solid #FF7F00;
+}
+
+
+a.icon.abw {
+    background: url('/images/icons/small/abw.gif') 30px 25px no-repeat;
+}
+
+a.icon.abw:hover {
+    background: url('/images/icons/medium/abw.gif') 0px 0px no-repeat;
+}
+
+a.icon.badger {
+    background: url('/images/icons/small/badger.gif') 30px 25px no-repeat;
+}
+
+a.icon.badger:hover {
+    background: url('/images/icons/medium/badger.gif') 0px 0px no-repeat;
+}
+
+a.icon.camel {
+    background: url('/images/icons/small/camel.gif') 30px 25px no-repeat;
+}
+
+a.icon.camel:hover {
+    background: url('/images/icons/medium/camel.gif') 0px 0px no-repeat;
+}
+
+a.icon.computer {
+    background: url('/images/icons/small/computer.gif') 30px 25px no-repeat;
+}
+
+a.icon.computer:hover {
+    background: url('/images/icons/medium/computer.gif') 0px 0px no-repeat;
+}
+
+a.icon.kite {
+    background: url('/images/icons/small/kite.gif') 30px 25px no-repeat;
+}
+
+a.icon.kite:hover {
+    background: url('/images/icons/medium/kite.gif') 0px 0px no-repeat;
+}
+
+a.icon.mboard {
+    background: url('/images/icons/small/mboard.gif') 30px 25px no-repeat;
+}
+
+a.icon.mboard:hover {
+    background: url('/images/icons/medium/mboard.gif') 0px 0px no-repeat;
+}
+
+a.icon.tt2 {
+    background: url('/images/icons/small/tt2.gif') 30px 25px no-repeat;
+}
+
+a.icon.tt2:hover {
+    background: url('/images/icons/medium/tt2.gif') 0px 0px no-repeat;
+}
+
+a.icon.cool {
+    background: url('/images/icons/small/cool.gif') 30px 25px no-repeat;
+}
+
+a.icon.cool:hover {
+    background: url('/images/icons/medium/cool.gif') 0px 0px no-repeat;
+}
+
+a.icon.greed {
+    background: url('/images/icons/small/greed.gif') 30px 25px no-repeat;
+}
+
+a.icon.greed:hover {
+    background: url('/images/icons/medium/greed.gif') 0px 0px no-repeat;
+}
+
+
+a.icon.camel {
+    margin: 0 -45px 0 5px;
+}
+
+div.iconset {
+    position: relative;
+    text-align: center;
+    width: 670px;
+    padding: 0px;
+    margin: 0px auto 10px auto;
+/*    border: 1px solid red; */
+}
+
+
+table.frame {
+    padding: 0;
+    margin: 4px;
+}
+
+table.frame tr,
+table.frame tr td {
+    padding: 0;
+    margin: 0;
+}
+
+table.frame tr.top td,
+table.frame tr.bottom td {
+    height: 29px;
+}
+
+table.frame tr td.left,
+table.frame tr td.right {
+    width: 29px;
+}
+
+table.frame tr.middle td.centre {
+  border: 1px solid #ddd;
+  border-top: 1px solid #888;
+  border-left: 1px solid #888;
+  border: 1px solid #666;
+}
+
+table.frame td.caption {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+
+table.frame tr.top td.left {
+   background: url('/images/album/frame/grey/top_left.gif') no-repeat bottom right;
+}
+
+table.frame tr.top td.centre {
+   background: url('/images/album/frame/grey/top.gif') repeat-x bottom left;
+}
+
+table.frame tr.top td.right {
+   background: url('/images/album/frame/grey/top_right.gif') no-repeat bottom left;
+}
+
+table.frame tr.middle td.left {
+   background: url('/images/album/frame/grey/left.gif') repeat-y top right;
+}
+
+table.frame tr.middle td.right {
+   background: url('/images/album/frame/grey/right.gif') repeat-y top left;
+}
+
+table.frame tr.bottom td.left {
+   background: url('/images/album/frame/grey/bottom_left.gif') no-repeat top right;
+}
+
+table.frame tr.bottom td.centre {
+   background: url('/images/album/frame/grey/bottom.gif') repeat-x top left;
+}
+
+table.frame tr.bottom td.right {
+   background: url('/images/album/frame/grey/bottom_right.gif') no-repeat top left;
+}
+
+table.frame.blue tr.top td.left {
+   background: url('/images/album/frame/blue/top_left.gif') no-repeat bottom right;
+}
+
+table.frame.blue tr.top td.centre {
+   background: url('/images/album/frame/blue/top.gif') repeat-x bottom left;
+}
+
+table.frame.blue tr.top td.right {
+   background: url('/images/album/frame/blue/top_right.gif') no-repeat bottom left;
+}
+
+table.frame.blue tr.middle td.left {
+   background: url('/images/album/frame/blue/left.gif') repeat-y top right;
+}
+
+table.frame.blue tr.middle td.right {
+   background: url('/images/album/frame/blue/right.gif') repeat-y top left;
+}
+
+table.frame.blue tr.bottom td.left {
+   background: url('/images/album/frame/blue/bottom_left.gif') no-repeat top right;
+}
+
+table.frame.blue tr.bottom td.centre {
+   background: url('/images/album/frame/blue/bottom.gif') repeat-x top left;
+}
+
+table.frame.blue tr.bottom td.right {
+   background: url('/images/album/frame/blue/bottom_right.gif') no-repeat top left;
+}
+
+table.frame.orange tr.top td.left {
+   background: url('/images/album/frame/orange/top_left.gif') no-repeat bottom right;
+}
+
+table.frame.orange tr.top td.centre {
+   background: url('/images/album/frame/orange/top.gif') repeat-x bottom left;
+}
+
+table.frame.orange tr.top td.right {
+   background: url('/images/album/frame/orange/top_right.gif') no-repeat bottom left;
+}
+
+table.frame.orange tr.middle td.left {
+   background: url('/images/album/frame/orange/left.gif') repeat-y top right;
+}
+
+table.frame.orange tr.middle td.right {
+   background: url('/images/album/frame/orange/right.gif') repeat-y top left;
+}
+
+table.frame.orange tr.bottom td.left {
+   background: url('/images/album/frame/orange/bottom_left.gif') no-repeat top right;
+}
+
+table.frame.orange tr.bottom td.centre {
+   background: url('/images/album/frame/orange/bottom.gif') repeat-x top left;
+}
+
+table.frame.orange tr.bottom td.right {
+   background: url('/images/album/frame/orange/bottom_right.gif') no-repeat top left;
+}
+
+
+
+table.kfl {
+    background-color: #fff;
+}
+
+table.kfl td.head {
+    background-color: #dde;
+    font-weight: bold;
+    padding: 3px;
+}
+
+table.kfl td.bold {
+    background-color: #b0b0bf;
+    font-weight: bold;
+    padding: 3px;
+}
+
+table.kfl td.tech {
+    font-size: 10px;
+    background-color: #ddffdd;
+}
+
+table.kfl td.style {
+    font-size: 10px;
+    background-color: #d4d4ff;
+}
+
+table.kfl td.total {
+    font-size: 10px;
+    background-color: #ffdddd;
+}
+
+table.kfl td.tech_total {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #bbffbb;
+}
+
+table.kfl td.style_total {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #bbbbff;
+}
+
+table.kfl td.total_total {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ffbbbb;
+}
+
+
+table.kfl td.tech_best {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #66ff66;
+}
+
+table.kfl td.style_best {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #6666ff;
+}
+
+table.kfl td.total_best {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ff6666;
+    border: 1px solid #000;
+}
+
+table.kfl td.competitor {
+    background-color: #f0f0ff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 10px 4px 4px;
+}
+
+table.kfl td.bold {
+    font-weight: bold;
+}
+#hint {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #888;
+}
+
+#hint div.panel.mini {
+    display: none;
+    margin: 0;
+    width: 200px;
+}
+
+#hint .old_caption {
+  margin: 0;
+  padding: 0 0 2px 0;
+  font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+  color: #888;
+}
+
+#hint div.panel div.body {
+    text-align: center;
+}
+
+#hint .title {
+    margin: 0;
+    padding: 0;
+    font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+#hint .info {
+    padding: 2px 0 0 0;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+#hint div.prev, 
+#hint div.link,
+#hint div.up,
+#hint div.this,
+#hint div.next {
+    border: 1px solid #AAA;
+    background: #fff url('../images/ui/vgrad40.gif') top left repeat-x;
+}
+
+#hint .old_caption {
+    background-color: #eee;
+    border-bottom: 1px dashed #ccc;
+}
+
+#hint div.prev .caption {
+    padding: 0 20px;
+    background: #eee url('../images/arrows/ee16_orange/left.gif') top left no-repeat;
+}
+
+#hint div.next .caption {
+    background: #eee url('../images/arrows/ee16_orange/right.gif') top right no-repeat;
+}
+
+#hint div.link .caption {
+    background: #eee url('../images/arrows/ee16_orange/right.gif') top left no-repeat;
+}
+
+#hint div.up .caption {
+    background: #eee url('../images/arrows/ee16_orange/up.gif') top left no-repeat;
+}
+
+#hint div.this .caption {
+    background: #eee url('../images/arrows/ee16_orange/dot.gif') top left no-repeat;
+}
+
+#hint div.panel div.head .control {
+    background: url('../images/arrows/dd16_orange/right.gif') top left no-repeat;
+}
+
+#hint div.panel div.head .control.up {
+    background: url('../images/arrows/dd16_orange/up.gif') top left no-repeat;
+}
+
+#hint div.panel div.head .control.prev {
+    background: url('../images/arrows/dd16_orange/left.gif') top left no-repeat;
+}
+
+#hint div.panel div.head .control.next {
+    background: url('../images/arrows/dd16_orange/right.gif') top right no-repeat;
+}
+
+#hint div.panel div.head .control.here {
+    background: url('../images/arrows/dd16_orange/dot.gif') top left no-repeat;
+}
+
+#hint div.panel div.head .control.action {
+    background: url('../images/arrows/dd16_orange/dot.gif') top left no-repeat;
+}
+
+#hint div.panel div.head .control {
+    border: 0px;
+}
+
+#hint_panel {
+    opacity: .90;
+}
+
+
+
+li.comment div {
+   border: 1px solid #888;
+   background-color: #eee;
+}
+
+
+div.left_section {
+  float: left;
+}
+
+
+div.abstract {
+    color: #222;
+    font-size: 15px;
+    margin: 2px 0;
+    padding: 0;
+}
+
+.info {
+  font-size: 12px;
+}
+
+.info * {
+  font-size: 12px;
+}
+
+.indent {
+   margin-left: 20px;
+}
+
+.year, .month, .day {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.quote {
+   font-style: italic;
+   font-size: 16px;
+   padding: 8px;
+}
+
+div.quote {
+   position: relative;
+   float: left;
+   margin: 4px 20px;
+   padding: 8px 50px;
+}
+
+div.quote .attrib {
+    text-align: right;
+    font-style: normal;
+    font-size: 14px;
+    padding: 8px 10px;
+}
+
+div.quote .left,
+div.quote .right {
+    position: absolute;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+div.quote .left {
+    left: 0px;
+    background: url('../images/misc/quoteleft.gif') 
+                no-repeat top left;
+}
+
+div.quote .right {
+    right: 0px;
+    background: url('../images/misc/quoteright.gif') 
+                no-repeat top left;
+}
+
+table.quote .attrib {
+    text-align: right;
+    font-style: normal;
+    font-size: 14px;
+    padding: 8px 10px;
+}
+
+code.command {
+  color: #222;
+  font-weight: bold;
+}
+
+code.command .prompt {
+  color: #FF7F00;
+  font-weight: bold;
+}
+
+.html {
+  font-weight: bold;
+}
+
+.css {
+  font-weight: bold;
+}
+
+.tt {
+  color: #FF7F00;
+  font-weight: bold;
+}
+
+.file {
+  font-weight: bold;
+}
+
+
+pre {
+    margin-left: 20px;
+    color: #222;
+}
+
+pre.config {
+  color: #222;
+  font-weight: bold;
+}
+
+pre.config .comment {
+  color: #FF7F00;
+}
+
+pre.mini {
+    font-size: 8px;    
+    font-weight: bold;
+    margin-left: 0;
+}
+
+table.data {
+  border: 1px solid #00AAF0; 
+  padding: 1px;
+  margin: 4px 20px 12px;
+  background-color: #fff;
+}
+
+table.data td.key,
+table.data td.value,
+table.data td.info {
+  font: 13px Verdana, Arial, Helvetica, sans-serif;
+  padding: 2px 6px;
+}
+
+table.data th {
+  font-weight: bold;
+  background-color: #CCE6F0;
+  padding: 2px 4px;
+}
+
+table.data th.title {
+    text-align: center;
+    font-size: 15px;
+}
+
+table.data td.key {
+  font-weight: bold;
+  background-color: #DCEBF0;
+}
+
+table.data td.value {
+  background-color: #ddd;
+}
+
+table.data td.info {
+  background-color: #eee;
+}
+
+table.data td.caption {
+  text-align: center;
+  font-size: 12px;
+  white-space: nowrap;
+  background-color: #DCEBF0;
+}
+
+div.picture {
+/*  float: left; */
+   margin: 10px;
+}
+
+div.picture .caption {
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+  padding: 4px 0 0 0;
+}
+
+div.pictures {
+   margin: 10px;
+}
+
+table.breakdown {
+   margin: 0;
+   padding: 0;
+}
+
+table.breakdown td {
+   font-size: 14px;
+   padding: 2px 12px 2px 0;
+   margin: 0;
+}
+
+table.pichead {
+    margin: 0 0 0 -30px;
+    padding: 0;
+    border: 0;
+}
+
+table.pichead td.image {
+    padding: 10px 0 0 0; 
+}
+
+table.pichead td.content {
+    padding: 0 0 0 30px; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.big {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+img.thumbnail {
+    padding: 1px;
+    margin: 10px 5px;
+    border: 1px solid #004460;
+}
+
+img.thumbnail:hover {
+    border: 1px solid #FF7F00;
+}
+
+
+table.newsinfo {
+    margin: 10px 0px 10px 0px;
+}
+
+pre.newsquote {
+    margin: 4px 0 10px 0;
+    color: #006690;
+}
+
+pre.newsquote .attrib {
+    color: #0088C0;
+    font-weight: bold;
+}
+
+p a:visited {
+    padding: 0 14px 0 0;
+    font-weight: normal;
+    background: url('../images/misc/tick.gif') top right no-repeat;
+}
+
+p a:visited:hover {
+    background: url('../images/misc/tickroll.gif') top right no-repeat;
+}
+
+p .ref a:visited {
+    padding-right: 0px;
+    background-image: none;
+}
+
+span.ref {
+    font-size: 12px;
+    vertical-align: super;
+    line-height: 0;
+    margin-left: 2px;
+    color: #888;
+}
+
+a.ext {
+    padding: 0 14px 0 0;
+    font-weight: normal;
+    background: url('../images/misc/extlink.gif') top right no-repeat;
+}
+
+p a.ext {
+    padding: 0 14px 0 0;
+    font-weight: normal;
+    background: url('../images/misc/extlink.gif') top right no-repeat;
+}
+
+p a.ext:visited {
+    background: url('../images/misc/extlinkvis.gif') top right no-repeat;
+}
+
+a.ext:hover,
+p a.ext:hover {
+    background: url('../images/misc/extlinkroll.gif') top right no-repeat;
+}
+
+dt {
+    font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+}
+
+dd {
+    padding: 2px 0 10px 0;
+}
+
+div.midpic {
+    text-align: center;
+    margin: 8px 0;
+}
+
+hr {
+  border: 0;
+  color: #00AAF0;
+  background-color: #00AAF0;
+  height: 1px;
+}
+
+#map {
+    position: relative; 
+    border: 1px solid #00AAF0;
+    padding: 1px;
+    width: 500px;
+    height: 400px;
+    margin: 10px 20px;
+}
+
+#map div.map_overview {
+    position: absolute; 
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid #00AAF0;
+    padding: 10px;
+}
+
+#map div.mapinfo  {
+   width: 250px;
+}
+
+div.mapinfo h4.name {
+  margin: 0 0 2px 0;
+  padding: 0;
+}
+
+div.inactive.compander {
+    display: none;
+}
+
+div.active.compander {
+    display: block;
+}
+
+
+a.tip {
+    position: relative;
+    z-index: 20;
+}
+
+a.tip:hover {
+    position: relative;
+    z-index: 21;
+}
+
+a.tip span.tip {
+    display: none;
+}
+
+a.tip:hover span.tip {
+    display: block;
+    position: absolute;
+    width: 180px;
+    top: 15px;
+    left: -60px;
+    padding: 3px;
+    border: 1px solid #00AAF0;
+    background-color: #f4f4f4;
+}
+
+a.tip:hover span.tip:hover {
+    border: 1px solid #FF7F00;
+}
+
+a.tip:hover span.tip .title {
+    display: block;
+    font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+a.tip:hover span.tip .info {
+    display: block;
+    font: 10px Verdana, Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+span.link {
+    color: #004460;
+}
+
+
+pre.perl,
+pre.template,
+pre.xml,
+pre.shell,
+pre.output {
+    margin: 20px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+pre.shell {
+    color: #222;
+}
+
+pre.shell .prompt {
+    color: #666;
+}
+
+pre.perl {
+    color: #06b;
+}
+
+pre.input, 
+code.input,
+pre.shell .input {
+    color: #2A2;
+}
+
+code.output,
+pre.shell .output {
+    color: #22A;
+}
+
+pre.template {
+    color: #b60;
+}
+
+pre.output,
+pre.xml {
+    color: #666;
+}
+
+a:focus {
+    outline: none;
+    -moz-outline: none;
+}
+
+
+/*
+sub, sup {
+    line-height: 0;
+}
+*/
+
+/*------------------------------------------------------------------------*/
+/* override defaults for hidden menu                                      */
+/*------------------------------------------------------------------------*/
+
+#sidebar {
+  display: none;
+}
+
+#hide_menu {
+  display: none;
+}
+
+#show_menu {
+  display: block;
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  width: 120px;
+}
+
+#content {
+  margin-left: 24px;
+  margin-right: 24px;
+}
